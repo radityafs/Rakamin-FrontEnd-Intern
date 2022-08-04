@@ -21,7 +21,7 @@ export default function About() {
                 }}
               ></div>
 
-              <h1 className='text-3xl font-bold pt-5 lg:pt-0 text-black dark:text-white'>
+              <h1 className='text-3xl font-bold pt-5 lg:pt-0 text-gray-700 dark:text-white'>
                 Raditya Firman Syaputra
               </h1>
               <div className='mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-blue-500 opacity-25'></div>
@@ -35,7 +35,7 @@ export default function About() {
                 </svg>
                 Student at Sebelas Maret University
               </p>
-              <p className='pt-2 text-white font-semibold text-xs lg:text-sm flex items-center justify-center  text-black dark:text-white'>
+              <p className='pt-2 text-white font-semibold text-xs lg:text-sm flex items-center justify-center text-gray-600 dark:text-white'>
                 <svg
                   className='h-4 fill-current text-blue-700 pr-4'
                   xmlns='http://www.w3.org/2000/svg'
@@ -66,7 +66,7 @@ export default function About() {
 
                 <a
                   href={'mailto:radityafiqa4@gmail.com'}
-                  className='bg-blue-700 hover:bg-blue-900 text-black dark:text-white font-bold py-2 px-4 rounded-full'
+                  className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full'
                 >
                   Get In Touch
                 </a>
@@ -77,11 +77,10 @@ export default function About() {
                   className='link'
                   href='https://github.com/radityafs'
                   target={'_blank'}
-                  data-tippy-content='@github_handle'
                   rel='noreferrer'
                 >
                   <svg
-                    className='h-6 fill-current text-black-600 dark:text-white-600 hover:text-blue-700'
+                    className='h-6 fill-current dark:text-white-600 hover:text-blue-700'
                     role='img'
                     viewBox='0 0 24 24'
                     xmlns='http://www.w3.org/2000/svg'
