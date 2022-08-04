@@ -10,7 +10,7 @@ export default function About() {
         <div className='max-w-4xl flex items-center justify-center flex-wrap mx-auto '>
           <div
             id='profile'
-            className='w-full  my-6 lg:w-3/5 rounded-lg lg:rounded-lg shadow-2xl text-white mx-6 lg:mx-0 dark:bg-gray-800'
+            className='w-full lg:mt-6 mt-16 mb-4 lg:w-3/5 rounded-lg lg:rounded-lg shadow-2xl text-white mx-6 lg:mx-0 dark:bg-gray-800'
           >
             <div className='p-4 md:p-12 text-center'>
               <div
@@ -21,11 +21,11 @@ export default function About() {
                 }}
               ></div>
 
-              <h1 className='text-3xl font-bold pt-5 lg:pt-0'>
+              <h1 className='text-3xl font-bold pt-5 lg:pt-0 text-black dark:text-white'>
                 Raditya Firman Syaputra
               </h1>
               <div className='mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-blue-500 opacity-25'></div>
-              <p className='pt-4 text-base font-semibold flex items-center justify-center '>
+              <p className='pt-4 text-base font-semibold flex items-center justify-center text-black dark:text-white'>
                 <svg
                   className='h-4 fill-current text-blue-700 pr-4'
                   xmlns='http://www.w3.org/2000/svg'
@@ -35,7 +35,7 @@ export default function About() {
                 </svg>
                 Student at Sebelas Maret University
               </p>
-              <p className='pt-2 text-white font-semibold text-xs lg:text-sm flex items-center justify-center'>
+              <p className='pt-2 text-white font-semibold text-xs lg:text-sm flex items-center justify-center  text-black dark:text-white'>
                 <svg
                   className='h-4 fill-current text-blue-700 pr-4'
                   xmlns='http://www.w3.org/2000/svg'
@@ -45,34 +45,34 @@ export default function About() {
                 </svg>
                 Surakarta, Jawa Tengah
               </p>
-              <p className='pt-5 text-sm'>
+              <p className='pt-5 text-sm text-black dark:text-white'>
                 Hello there, I'm Raditya Firman Syaputra, a student at Sebelas
                 Maret University. I'm a student of Computer Science and
                 Engineering. I'm a full-stack developer, and I'm currently
                 learning React.
               </p>
 
-              <div className='pt-5 pb-5 w-full flex justify-center'>
+              <div className='pt-5 pb-5 w-full flex justify-center text-black dark:text-white'>
                 <a
                   href={
                     'https://docs.google.com/document/d/11NW_54fIa_b14DbQ8S3qUtfB1htS8oEsLXiroF8hQMY/'
                   }
                   target={'_blank'}
                   rel={'noopener noreferrer'}
-                  className='bg-blue-700 lg:mr-4 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full'
+                  className='bg-blue-700 lg:mr-4 mr-3 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full'
                 >
                   Resume / CV
                 </a>
 
                 <a
                   href={'mailto:radityafiqa4@gmail.com'}
-                  className='bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full'
+                  className='bg-blue-700 hover:bg-blue-900 text-black dark:text-white font-bold py-2 px-4 rounded-full'
                 >
                   Get In Touch
                 </a>
               </div>
 
-              <div className='mt-5 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-center'>
+              <div className='mt-5 pb-6 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-center'>
                 <a
                   className='link'
                   href='https://github.com/radityafs'
@@ -81,7 +81,7 @@ export default function About() {
                   rel='noreferrer'
                 >
                   <svg
-                    className='h-6 fill-current text-gray-600 hover:text-blue-700'
+                    className='h-6 fill-current text-black-600 dark:text-white-600 hover:text-blue-700'
                     role='img'
                     viewBox='0 0 24 24'
                     xmlns='http://www.w3.org/2000/svg'

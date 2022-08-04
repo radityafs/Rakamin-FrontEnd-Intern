@@ -7,7 +7,7 @@ export default function Card(props) {
   const { product } = props;
 
   return (
-    <div className='my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 bg-white'>
+    <div className='my-2 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 bg-white'>
       {isLoading && (
         <div className='flex justify-center items-center border-gray-200 shadow dark:border-gray-700 h-40 bg-gray-300 rounded dark:bg-gray-700 animate-pulse'>
           <svg
